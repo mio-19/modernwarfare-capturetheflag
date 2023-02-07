@@ -89,4 +89,5 @@ ctf_modebase.register_mode("modern", {
 })
 
 -- modern begin
+ctf_modebase.mode_on_next_match = "modern"
 ctf_modebase.current_mode = "modern"
