@@ -30,6 +30,7 @@ minetest.register_on_mods_loaded(function()
 			drops = def.drops,
 			flammable = def.groups.flammable,
 			on_blast = def.on_blast,
+			immortal = def.groups.immortal,
 		}
 	end
 end)
@@ -114,7 +115,7 @@ local function destroy(drops, npos, cid, c_air, c_fire,
 			pos = vector.new(npos)
 		}
 		return c_fire
-	elseif def.groups and def.groups.immortal then
+	elseif def.immortal then
 		return cid
 	else
 		local node_drops = minetest.get_node_drops(def.name, "")
