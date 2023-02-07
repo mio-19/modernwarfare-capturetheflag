@@ -34,10 +34,11 @@ ctf_modebase.register_mode("modern", {
 
 		-- modern: added
 		["ctf_healing:medkit" ] = {rarity = 0.5 , max_stacks = 2},
-		["vehicles:missile_2_item"] = {min_count = 3, max_count = 16, rarity = 0.5, max_stacks = 5},
+		["vehicles:missile_2_item"] = {min_count = 3, max_count = 5, rarity = 0.3, max_stacks = 2},
 		["vehicles:rc"] = {rarity = 0.3},
 		["vehicles:apache_spawner"] = {rarity = 0.3},
 		["vehicles:backpack"] = {rarity = 0.3},
+		["tnt:tnt"] = {min_count = 3, max_count = 9, rarity = 0.3, max_stacks = 2},
 	},
 	crafts = {"ctf_ranged:ammo", "ctf_melee:sword_steel", "ctf_melee:sword_mese", "ctf_melee:sword_diamond"},
 	physics = {sneak_glitch = true, new_move = false},
