@@ -55,7 +55,8 @@ ctf_modebase.register_mode("modern", {
 	},
 
 	stuff_provider = function()
-		return {"default:sword_stone", "default:pick_stone", "default:torch 15", "default:stick 5"}
+		--return {"default:sword_stone", "default:pick_stone", "default:torch 15", "default:stick 5"}
+		return {"default:sword_steel", "default:pick_steel", "default:torch 15", "default:stick 5", "ctf_ranged:rifle_loaded 1"} -- modern: changed
 	end,
 	initial_stuff_item_levels = features.initial_stuff_item_levels,
 	on_mode_start = function()
