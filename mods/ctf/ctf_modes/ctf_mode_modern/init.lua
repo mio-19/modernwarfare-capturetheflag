@@ -89,5 +89,13 @@ ctf_modebase.register_mode("modern", {
 })
 
 -- modern begin
-ctf_modebase.mode_on_next_match = "modern"
 ctf_modebase.current_mode = "modern"
+ctf_modebase.mode_on_next_match = "modern"
+
+local select_map_for_mode_old = ctf_modebase.map_catalog.select_map_for_mode
+function ctf_modebase.map_catalog.select_map_for_mode(mode)
+	if mode == "modern" then
+		return select_map_for_mode_old("classic")
+	end
+	return select_map_for_mode_old(mode)
+end
