@@ -29,8 +29,8 @@ ctf_modebase.register_mode("modern", {
 		["ctf_ranged:ammo" ] = {min_count = 4, max_count = 10, rarity = 0.6 , max_stacks = 2}, -- modern: increase count
 		["default:apple"   ] = {min_count = 6, max_count = 16, rarity = 0.6 , max_stacks = 2}, -- modern: increase count
 
-		["grenades:frag" ] = {rarity = 0.1, max_stacks = 1},
-		["grenades:smoke"] = {rarity = 0.2, max_stacks = 2},
+		["grenades:frag" ] = {min_count = 2, max_count = 5, rarity = 0.4, max_stacks = 1}, -- modern: increase count
+		["grenades:smoke"] = {min_count = 2, max_count = 5, rarity = 0.6, max_stacks = 2}, -- modern: increase count
 
 		-- modern: added
 		["ctf_healing:medkit" ] = {rarity = 0.5 , max_stacks = 2},
