@@ -6,7 +6,7 @@ ctf_modebase = {
 	modelist             = {},    ---@type list
 
 	-- Name of the mode currently being played. On server start this will be false
-	current_mode         = "modern", ---@type string --- modern: default to modern mode
+	current_mode         = false, ---@type string
 
 	-- Players can hit, heal, etc
 	match_started         = false, ---@type boolean
