@@ -41,7 +41,8 @@ ctf_modebase.register_mode("modern", {
 	},
 	crafts = {"ctf_ranged:ammo", "ctf_melee:sword_steel", "ctf_melee:sword_mese", "ctf_melee:sword_diamond"},
 	physics = {sneak_glitch = true, new_move = false},
-	team_chest_items = {"default:cobble 99", "default:wood 99", "default:torch 30", "ctf_teams:door_steel 2"},
+	team_chest_items = {"default:cobble 99", "default:wood 99", "default:torch 30", "ctf_teams:door_steel 6",
+						"ctf_healing:medkit 30", "vehicles:apache_spawner 2", "vehicles:backpack 4", "vehicles:missile_2_item 32", "vehicles:rc 4"}, -- modern: new items
 	rankings = rankings,
 	recent_rankings = recent_rankings,
 	summary_ranks = {
