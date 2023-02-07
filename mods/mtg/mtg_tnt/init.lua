@@ -113,6 +113,8 @@ local function destroy(drops, npos, cid, c_air, c_fire,
 			pos = vector.new(npos)
 		}
 		return c_fire
+	elseif def.immortal then
+		return cid
 	else
 		local node_drops = minetest.get_node_drops(def.name, "")
 		for _, item in pairs(node_drops) do
