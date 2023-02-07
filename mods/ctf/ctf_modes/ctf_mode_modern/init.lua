@@ -26,8 +26,8 @@ ctf_modebase.register_mode("modern", {
 		["ctf_ranged:shotgun_loaded"] = {rarity = 0.6                }, -- modern: increase count
 		["ctf_ranged:smg_loaded"    ] = {rarity = 0.6                }, -- modern: increase count
 
-		["ctf_ranged:ammo" ] = {min_count = 3, max_count = 10, rarity = 0.3 , max_stacks = 2},
-		["default:apple"   ] = {min_count = 6, max_count = 16, rarity = 0.2 , max_stacks = 2},
+		["ctf_ranged:ammo" ] = {min_count = 4, max_count = 10, rarity = 0.6 , max_stacks = 2}, -- modern: increase count
+		["default:apple"   ] = {min_count = 6, max_count = 16, rarity = 0.6 , max_stacks = 2}, -- modern: increase count
 
 		["grenades:frag" ] = {rarity = 0.1, max_stacks = 1},
 		["grenades:smoke"] = {rarity = 0.2, max_stacks = 2},
