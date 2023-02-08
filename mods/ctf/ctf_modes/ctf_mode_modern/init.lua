@@ -39,6 +39,7 @@ ctf_modebase.register_mode("modern", {
 		["vehicles:apache_spawner"] = {rarity = 0.3},
 		["vehicles:backpack"] = {rarity = 0.3},
 		["tnt:tnt"] = {min_count = 3, max_count = 9, rarity = 0.3, max_stacks = 2},
+		["fire:flint_and_steel"] = {rarity = 0.3},
 	},
 	crafts = {"ctf_ranged:ammo", "ctf_melee:sword_steel", "ctf_melee:sword_mese", "ctf_melee:sword_diamond"},
 	physics = {sneak_glitch = true, new_move = false},
